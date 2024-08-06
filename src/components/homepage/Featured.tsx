@@ -18,7 +18,7 @@ const Featured = () => {
                 <p className="text-sm text-orange-400">Featured</p>
                 <h2 className='text-[45px] font-semibold leading-10'>Investigate all corners of the world with us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rerum numquam cumque? Eveniet magnam dolor accusamus excepturi iste dolore asperiores ducimus officia error illo poquid iusto libero, at sint sapiente enim?</p>
-                <button className="bg-teal-600 px-5 py-2 rounded-md hover:bg-teal-800  relative z-0">
+                <button className="bg-teal-600 px-5 py-2 rounded-md hover:bg-teal-800  relative z-0 hover:text-white">
             Explore Now
           </button>
             </div>

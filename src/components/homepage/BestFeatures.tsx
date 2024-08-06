@@ -2,6 +2,10 @@ import { Croissant_One } from "next/font/google";
 import Image from "next/image";
 import React from "react";
 import { SiFoursquarecityguide } from "react-icons/si";
+import { FaHandshake } from "react-icons/fa";
+import { BiDonateHeart } from "react-icons/bi";
+
+
 const croissant_one = Croissant_One({
   subsets: ["latin"],
   weight: ["400"],
@@ -34,11 +38,11 @@ const BestFeatures = () => {
             </div>
 
             <div className="flex items-start gap-2 mb-4">
-              <div className="rounded-md bg-green-400/40 p-4 border border-green-500">
-                <SiFoursquarecityguide className="text-green-500" />
+              <div className="rounded-md bg-yellow-400/40 p-4 border border-yellow-500">
+                <BiDonateHeart className="text-yellow-500" />
               </div>
               <div className="info">
-                <div className="font-bold">Best Tour Guide</div>
+                <div className="font-bold">Reliable Tour</div>
                 <p className="text-[12px]">
                   Lorem, ipsum dolor sit amet consectetur <br /> adipisicing
                   elit. Porro dolorum eius repellendus eos officiis quam?
@@ -47,18 +51,18 @@ const BestFeatures = () => {
             </div>
 
             <div className="flex items-start gap-2 mb-4">
-              <div className="rounded-md bg-green-400/40 p-4 border border-green-500">
-                <SiFoursquarecityguide className="text-green-500" />
+              <div className="rounded-md bg-pink-400/40 p-4 border border-pink-500">
+                <FaHandshake className="text-pink-500" />
               </div>
               <div className="info">
-                <div className="font-bold">Best Tour Guide</div>
+                <div className="font-bold">Friendly Price</div>
                 <p className="text-[12px]">
                   Lorem, ipsum dolor sit amet consectetur <br /> adipisicing
                   elit. Porro dolorum eius repellendus eos officiis quam?
                 </p>
               </div>
             </div>
-            <button className="bg-teal-600 px-5 py-2 rounded-md hover:bg-teal-800  relative z-0">
+            <button className="bg-teal-600 px-5 py-2 rounded-md hover:bg-teal-800 hover:text-white relative z-0">
               Explore Now
             </button>
           </div>

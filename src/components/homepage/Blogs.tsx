@@ -11,10 +11,10 @@ const Blogs = () => {
                     <p className="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit beatae rem ex <br/> sed odio corrupti totam fugit soluta omnis tenetur.</p>
                 </div>
                 <div className="blogs-container grid grid-cols-2 gap-4 py-8">
-                    <BlogCard/>
-                    <BlogCard/>
-                    <BlogCard/>
-                    <BlogCard/>
+                    <BlogCard n={1}/>
+                    <BlogCard n={2}/>
+                    <BlogCard n={3}/>
+                    <BlogCard n={4}/>
                 </div>
             </div>
         </div>
